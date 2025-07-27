@@ -1,0 +1,141 @@
+export const mockDoctors = [
+  {
+    id: "1",
+    name: "Sarah Johnson",
+    specialty: "General Medicine",
+    experience: 12,
+    rating: 4.8,
+    reviews: 245,
+    distance: "0.5 km",
+    availability: 'available' as const,
+    consultationFee: 80,
+    workingHours: "9:00 AM - 6:00 PM",
+    currentPatients: 2,
+    estimatedWait: "15 mins",
+    bio: "Dr. Sarah Johnson is a dedicated general practitioner with over 12 years of experience in family medicine. She specializes in preventive care and chronic disease management.",
+    education: [
+      "MD from Harvard Medical School",
+      "Residency in Family Medicine at Mass General"
+    ],
+    languages: ["English", "Spanish"],
+    phone: "+1 (555) 123-4567",
+    email: "dr.johnson@healthcenter.com",
+    nextAvailable: "Today at 2:00 PM"
+  },
+  {
+    id: "2", 
+    name: "Michael Chen",
+    specialty: "Cardiology",
+    experience: 15,
+    rating: 4.9,
+    reviews: 189,
+    distance: "1.2 km",
+    availability: 'busy' as const,
+    consultationFee: 150,
+    workingHours: "8:00 AM - 5:00 PM",
+    currentPatients: 5,
+    estimatedWait: "45 mins",
+    bio: "Dr. Michael Chen is a renowned cardiologist specializing in interventional cardiology and heart disease prevention. He has published numerous research papers in leading medical journals.",
+    education: [
+      "MD from Johns Hopkins School of Medicine",
+      "Fellowship in Cardiology at Cleveland Clinic"
+    ],
+    languages: ["English", "Mandarin"],
+    phone: "+1 (555) 234-5678",
+    email: "dr.chen@heartcenter.com",
+    nextAvailable: "Tomorrow at 10:00 AM"
+  },
+  {
+    id: "3",
+    name: "Emily Rodriguez",
+    specialty: "Dermatology",
+    experience: 8,
+    rating: 4.7,
+    reviews: 156,
+    distance: "2.1 km",
+    availability: 'available' as const,
+    consultationFee: 120,
+    workingHours: "10:00 AM - 7:00 PM",
+    currentPatients: 1,
+    estimatedWait: "10 mins",
+    bio: "Dr. Emily Rodriguez is a board-certified dermatologist with expertise in both medical and cosmetic dermatology. She focuses on skin cancer prevention and treatment.",
+    education: [
+      "MD from Stanford University School of Medicine",
+      "Dermatology Residency at UCSF"
+    ],
+    languages: ["English", "Spanish", "French"],
+    phone: "+1 (555) 345-6789",
+    email: "dr.rodriguez@skincare.com",
+    nextAvailable: "Today at 3:30 PM"
+  },
+  {
+    id: "4",
+    name: "David Kumar",
+    specialty: "Neurology",
+    experience: 20,
+    rating: 4.9,
+    reviews: 312,
+    distance: "3.4 km",
+    availability: 'offline' as const,
+    consultationFee: 200,
+    workingHours: "9:00 AM - 4:00 PM",
+    currentPatients: 0,
+    estimatedWait: "N/A",
+    bio: "Dr. David Kumar is a highly experienced neurologist specializing in movement disorders and epilepsy. He has over 20 years of experience treating complex neurological conditions.",
+    education: [
+      "MD from Yale School of Medicine",
+      "Neurology Residency at Mayo Clinic",
+      "Fellowship in Movement Disorders"
+    ],
+    languages: ["English", "Hindi", "Gujarati"],
+    phone: "+1 (555) 456-7890",
+    email: "dr.kumar@neurocenter.com",
+    nextAvailable: "Monday at 9:00 AM"
+  },
+  {
+    id: "5",
+    name: "Lisa Thompson",
+    specialty: "Pediatrics",
+    experience: 10,
+    rating: 4.8,
+    reviews: 198,
+    distance: "1.8 km",
+    availability: 'available' as const,
+    consultationFee: 90,
+    workingHours: "8:00 AM - 6:00 PM",
+    currentPatients: 3,
+    estimatedWait: "20 mins",
+    bio: "Dr. Lisa Thompson is a compassionate pediatrician dedicated to providing comprehensive care for children from birth to adolescence. She specializes in developmental pediatrics.",
+    education: [
+      "MD from University of Pennsylvania",
+      "Pediatrics Residency at Children's Hospital of Philadelphia"
+    ],
+    languages: ["English", "German"],
+    phone: "+1 (555) 567-8901",
+    email: "dr.thompson@kidsheath.com",
+    nextAvailable: "Today at 4:00 PM"
+  },
+  {
+    id: "6",
+    name: "Robert Williams",
+    specialty: "Orthopedics", 
+    experience: 18,
+    rating: 4.6,
+    reviews: 167,
+    distance: "2.7 km",
+    availability: 'busy' as const,
+    consultationFee: 180,
+    workingHours: "7:00 AM - 4:00 PM",
+    currentPatients: 4,
+    estimatedWait: "60 mins",
+    bio: "Dr. Robert Williams is an orthopedic surgeon with extensive experience in joint replacement and sports medicine. He has treated professional athletes and everyday patients alike.",
+    education: [
+      "MD from Duke University School of Medicine",
+      "Orthopedic Surgery Residency at Hospital for Special Surgery"
+    ],
+    languages: ["English"],
+    phone: "+1 (555) 678-9012",
+    email: "dr.williams@orthocenter.com",
+    nextAvailable: "Tomorrow at 11:00 AM"
+  }
+];
